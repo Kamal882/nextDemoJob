@@ -63,7 +63,7 @@ export default async function Home() {
                 scope="row"
                 className="px-4 py-2 text-sm font-semibold text-gray-900"
               >
-                {`${userInfo?.lastName}, ${userInfo?.firstName} ${userInfo?.midenName}`}
+                {`${userInfo?.lastName}, ${userInfo?.firstName} ${userInfo?.midenName ? userInfo.midenName : ""}`}
               </th>
               <td className="px-4 py-2 text-sm text-gray-900">
                 <a
