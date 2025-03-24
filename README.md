@@ -92,7 +92,7 @@ yarn lint
 To improve search engine optimization (SEO), I have implemented the following best practices:
 
 ##  Semantic HTML: 
-Proper use of <table>, <thead>, <tbody>, <th>, and <td> ensures structured and meaningful content, making it easier for search engines to index.
+Proper use of `<table>`, `<thead>`, `<tbody>`, `<th>`, and `<td>` ensures structured and meaningful content, making it easier for search engines to index.
 
 ##  Descriptive Alt Text for Images: 
 The alt attribute in the <Image> component provides meaningful descriptions for profile pictures, improving accessibility and image indexing.
@@ -103,7 +103,7 @@ Email addresses use mailto: links to enable direct email access.
 
 Phone numbers use tel: links for direct calling, which benefits both accessibility and search engines.
 
-Structured Data for Addresses: Address details are wrapped inside the <address> tag, improving semantic clarity for search engines.
+Structured Data for Addresses: Address details are wrapped inside the `<address>` tag, improving semantic clarity for search engines.
 
 ## WCAG (Web Content Accessibility Guidelines) Compliance
 To enhance usability and accessibility for all users, including those with disabilities, the following WCAG practices have been applied:
@@ -114,7 +114,7 @@ The hover:bg-gray-50 and focus-within:bg-gray-100 classes ensure that users navi
 
 ## Accessible Table Structure:
 
-Headers (<th>) include descriptive text and proper structure to provide meaningful context for screen readers.
+Headers (`<th>`) include descriptive text and proper structure to provide meaningful context for screen readers.
 
 The use of scope="row" in name columns ensures proper association of data for assistive technologies.
 
