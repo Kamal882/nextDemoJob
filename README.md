@@ -95,7 +95,7 @@ To improve search engine optimization (SEO), I have implemented the following be
 Proper use of `<table>`, `<thead>`, `<tbody>`, `<th>`, and `<td>` ensures structured and meaningful content, making it easier for search engines to index.
 
 ##  Descriptive Alt Text for Images: 
-The alt attribute in the <Image> component provides meaningful descriptions for profile pictures, improving accessibility and image indexing.
+The alt attribute in the `<Image>` component provides meaningful descriptions for profile pictures, improving accessibility and image indexing.
 
 ##  Accessible and SEO-Friendly Links:
 
