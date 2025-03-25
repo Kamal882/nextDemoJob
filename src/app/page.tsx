@@ -2,7 +2,7 @@ import Image from "next/image";
 import { user } from "./interface/userTypes";
 
 export default async function Home() {
-  const res = await fetch("https://dummyjson.com/u", { cache: "no-store" });
+  const res = await fetch("https://dummyjson.com/users", { cache: "no-store" });
   const data = await res.json();
   return (
     <table className="min-w-full border border-gray-300 divide-y divide-gray-200">
